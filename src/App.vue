@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'app',
+  name: "App",
   data() {
     return {
       message: 'CIAO A TUTTI ☻'
