@@ -3,7 +3,7 @@ export default {
   name: 'app',
   data() {
     return {
-
+      message: 'CIAO A TUTTI ☻'
     }
   }
 }
@@ -11,7 +11,7 @@ export default {
 
 <template>
   <div>
-
+    <h1>{{ message }}</h1>
   </div>
 </template>
 
