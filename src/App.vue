@@ -5,6 +5,7 @@ export default {
     return {
       message: 'CIAO A TUTTI ☻',
       image: 'universo.jpg',
+      image2: '/pianeta-terra.jpg',
       classeImg: 'sizeImg'
     };
   },
@@ -24,7 +25,10 @@ export default {
   </div>
 
   <div>
-    <img :src="imagePath(image)" alt="" v-bind:class="classeImg">
+    <img :src="imagePath(image)" v-bind:class="classeImg"> <!--image con data e methods-->
+  </div>
+  <div>
+    <img :src="image2" v-bind:class="classeImg"> <!--image con data e PROVA PER USARE CARTELLA PUBLIC-->
   </div>
 </template>
 
